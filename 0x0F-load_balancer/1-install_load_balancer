@@ -14,7 +14,7 @@ frontend  microse-frontend
         bind *:80
         mode http
         default_backend microse-backend
-backend ehoneah-backend
+backend micros-backend
         balance roundrobin
         server 74219-web-01 100.24.238.56:80 check
         server 74219-web-02 18.234.249.131:80 check
